@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        }
+      },
+      "versions": {
+        "generation-v": {
+          "black-white": {
+            "animated": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif"
+            }
+          }
+        }
+      }
+    },
+    "types": [
+      {
+        "type": { "name": "grass" }
+      },
+      {
+        "type": { "name": "poison" }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        }
+      },
+      "versions": {
+        "generation-v": {
+          "black-white": {
+            "animated": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif"
+            }
+          }
+        }
+      }
+    },
+    "types": [
+      {
+        "type": { "name": "fire" }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+        }
+      },
+      "versions": {
+        "generation-v": {
+          "black-white": {
+            "animated": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
+            }
+          }
+        }
+      }
+    },
+    "types": [
+      {
+        "type": { "name": "fire" }
+      },
+      {
+        "type": { "name": "flying" }
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "name": "togepi",
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png"
+        }
+      },
+      "versions": {
+        "generation-v": {
+          "black-white": {
+            "animated": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/175.gif"
+            }
+          }
+        }
+      }
+    },
+    "types": [
+      {
+        "type": { "name": "fairy" }
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan",
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+        }
+      },
+      "versions": {
+        "generation-v": {
+          "black-white": {
+            "animated": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/115.gif"
+            }
+          }
+        }
+      }
+    },
+    "types": [
+      {
+        "type": { "name": "normal" }
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+        }
+      },
+      "versions": {
+        "generation-v": {
+          "black-white": {
+            "animated": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif"
+            }
+          }
+        }
+      }
+    },
+    "types": [
+      {
+        "type": { "name": "psychic" }
+      }
+    ]
+  }
+]

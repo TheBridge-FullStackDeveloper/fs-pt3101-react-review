@@ -1,0 +1,19 @@
+.subtitle {
+  font-family: "dosis-regular";
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  &--xl {
+    > p {
+      font-size: 1.5rem;
+    }
+  }
+
+  &--xxl {
+    > p {
+      font-size: 1.75rem;
+    }
+  }
+}

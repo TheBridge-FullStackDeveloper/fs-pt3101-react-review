@@ -9,7 +9,7 @@ import Button from "components/button";
 const Profile = () => {
   const navigate = useNavigate();
 
-  const handleClick = () => navigate("/pokedex");
+  const handleClick = () => navigate("/");
 
   return (
     <section className="profile">

@@ -1,13 +1,13 @@
 import "./styles.scss";
 
-const Input = ({ position, small, fn = () => {}, ...props }) => {
+const Input = ({ position, small, ...props }) => {
   return (
     <section
       className={`input ${position && `input--${position}`} ${
         small && `input--small`
       }`}
     >
-      <input autoComplete="off" className="input__text" {...fn()} {...props} />
+      <input className="input__text" {...props} />
     </section>
   );
 };

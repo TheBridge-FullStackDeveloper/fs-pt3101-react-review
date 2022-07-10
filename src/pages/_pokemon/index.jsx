@@ -1,6 +1,6 @@
 import "./styles.scss";
 import { useNavigate, useParams } from "react-router-dom";
-import { useGetter } from "store";
+import pokedex from "seeds/pokemons.json";
 import colors from "utils/colors";
 import { capitalize, startWithZeroes } from "utils/commons";
 
@@ -9,7 +9,6 @@ import Type from "components/type";
 
 const Pokemon = () => {
   const { pokemon } = useParams();
-  const { pokedex } = useGetter();
   const navigate = useNavigate();
 
   const { id, name, sprites, types } = pokedex.find(
@@ -20,7 +19,7 @@ const Pokemon = () => {
 
   const backgroundColor = colors[types[0].type.name].light;
 
-  const handleClick = () => navigate("/pokedex");
+  const handleClick = () => navigate("/");
 
   return (
     <section className="pokemon" style={{ backgroundColor }}>
